@@ -4,7 +4,7 @@ Prompt de sistema para um agente de IA de suporte à portaria/recepção: orient
 
 ## Visão geral
 
-O arquivo [prompt_final.md] define o comportamento de um agente que apoia os funcionários do setor de portaria/recepção de uma instituição. A prioridade do agente é segurança, conformidade institucional, precisão e transparência: quando a informação não está documentada, ele diz isso e encaminha, em vez de inventar uma resposta.
+O arquivo [`prompt_final.md`](prompt_final.md) define o comportamento de um agente que apoia os funcionários do setor de portaria/recepção de uma instituição. A prioridade do agente é segurança, conformidade institucional, precisão e transparência: quando a informação não está documentada, ele diz isso e encaminha, em vez de inventar uma resposta.
 
 ## O que o agente faz
 
@@ -44,9 +44,9 @@ O arquivo [prompt_final.md] define o comportamento de um agente que apoia os fun
 
 ## Documentação do projeto
 
-O arquivo [comparativo_opiniao.txt] compara a versão inicial do agente com a versão final entregue, em aspectos como objetivo, base de conhecimento, suporte técnico, emergências, encaminhamento, formato das respostas e fluxo de atendimento. Também traz os resultados qualitativos de sete testes práticos, a conclusão sobre a evolução do prompt e a opinião final do autor: um agente de IA exige avaliação, atualização e aprimoramento contínuos do prompt, guiados por critérios claros e testes.
+O arquivo [`comparativo_opiniao.txt`](comparativo_opiniao.txt) compara a versão inicial do agente com a versão final entregue, em aspectos como objetivo, base de conhecimento, suporte técnico, emergências, encaminhamento, formato das respostas e fluxo de atendimento. Também traz os resultados qualitativos de sete testes práticos, a conclusão sobre a evolução do prompt e a opinião final do autor: um agente de IA exige avaliação, atualização e aprimoramento contínuos do prompt, guiados por critérios claros e testes.
 
-O arquivo [prompt_1.md] reúne a primeira versão do prompt, para consulta e comparação com a versão final.
+O arquivo [`prompt_1.md`](prompt_1.md) reúne a primeira versão do prompt, para consulta e comparação com a versão final.
 
 ## Observações
 
