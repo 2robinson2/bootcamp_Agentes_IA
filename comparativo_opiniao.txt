@@ -1,12 +1,12 @@
-#COMPARATIVO ENTRE A VERSÃO INICIAL E A VERSÃO FINAL DO AGENTE DE ATENDIMENTO DA EMPRESA XY**
+COMPARATIVO ENTRE A VERSÃO INICIAL E A VERSÃO FINAL DO AGENTE DE ATENDIMENTO DA EMPRESA XY**
 
-##1. VISÃO GERAL
+1. VISÃO GERAL
 
 A evolução do agente mostra uma mudança importante: ele deixou de ser apenas um assistente com regras gerais de atendimento e passou a ter um modelo de atuação mais estruturado, com limites explícitos, fluxo de decisão e respostas padronizadas.
 
 Esta análise considera a primeira versão apresentada (abaixo) e o prompt final consolidado no arquivo enviado.
 
-##2. COMPARATIVO GERAL
+2. COMPARATIVO GERAL
 
 Aspecto: Objetivo
 Versão inicial: Prestar suporte à portaria e recepção.
@@ -44,7 +44,7 @@ Aspecto: Fluxo de atendimento
 Versão inicial: Verificar se a dúvida foi resolvida antes de encerrar.
 Versão final: Estabelece uma sequência de identificação, consulta, avaliação, orientação, verificação e encaminhamento.
 
-##3. PRINCIPAIS MUDANÇAS E ASPECTOS POSITIVOS
+3. PRINCIPAIS MUDANÇAS E ASPECTOS POSITIVOS
 
 3.1. De regras gerais para uma política de conhecimento verificável
 Na versão inicial, o agente recebia a instrução de não inventar informações. Na versão final, essa regra foi detalhada: consultar documentos, indicar a origem, distinguir fatos confirmados de informações não confirmadas e não escolher arbitrariamente entre documentos conflitantes.
@@ -82,7 +82,7 @@ A versão inicial priorizava respostas curtas e listas numeradas. A final acresc
 Aspecto positivo:
 Melhora a rastreabilidade, ajuda a conferir o fundamento das orientações e permite avaliar melhor a qualidade do atendimento.
 
-##4. O QUE OS TESTES PRÁTICOS DEMONSTRARAM?*
+4. O QUE OS TESTES PRÁTICOS DEMONSTRARAM?*
 
 As interações realizadas durante a configuração permitem observar como as mudanças afetam o comportamento do agente.
 
@@ -96,7 +96,7 @@ As interações realizadas durante a configuração permitem observar como as mu
 
 A lista do item 4 apresenta uma avaliação qualitativa das respostas observadas, não uma medição estatística de desempenho.
 
-##5. CONCLUSÃO
+5. CONCLUSÃO
 
 A principal evolução foi passar de um conjunto de instruções gerais para um protocolo de atendimento com regras explícitas de decisão, segurança, fundamentação e encaminhamento.
 
@@ -109,7 +109,7 @@ Benefícios mais importantes:
 
 Entretanto, um prompt bem estruturado não garante, sozinho, respostas operacionais corretas. A qualidade final depende também da documentação disponível, da forma como ela é consultada e dos testes realizados.
 
-##6. MINHA OPINIÃO FINAL
+6. MINHA OPINIÃO FINAL
 
 Quando falamos em atendimento com Inteligência Artificial, seja para atender às demandas de um setor interno de uma empresa ou para prestar atendimento direto aos clientes, precisamos compreender que o desenvolvimento de um agente de IA exige **avaliação, atualização e aprimoramento contínuos do prompt**.
 
