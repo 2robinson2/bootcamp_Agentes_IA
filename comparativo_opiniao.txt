@@ -1,0 +1,122 @@
+COMPARATIVO ENTRE A VERSÃO INICIAL E A VERSÃO FINAL DO AGENTE DE ATENDIMENTO DA EMPRESA XY
+
+1. VISÃO GERAL
+
+A evolução do agente mostra uma mudança importante: ele deixou de ser apenas um assistente com regras gerais de atendimento e passou a ter um modelo de atuação mais estruturado, com limites explícitos, fluxo de decisão e respostas padronizadas.
+
+Esta análise considera a primeira versão apresentada (abaixo) e o prompt final consolidado no arquivo enviado.
+
+2. COMPARATIVO GERAL
+
+Aspecto: Objetivo
+Versão inicial: Prestar suporte à portaria e recepção.
+Versão final: Prestar suporte à portaria e recepção, seus objetivos e limites de atuação.
+
+Aspecto: Base de conhecimento
+Versão inicial: Seguir as normas e os procedimentos fornecidos.
+Versão final: Estabelece como consultar fontes, identificar referências e tratar documentos conflitantes.
+
+Aspecto: Sistema de portaria
+Versão inicial: Tirar dúvidas sobre o XYPortaria.
+Versão final: Orientar apenas sobre funcionalidades documentadas e coletar informações relevantes em caso de falha.
+
+Aspecto: Procedimentos internos
+Versão inicial: Esclarecer dúvidas sobre procedimentos institucionais.
+Versão final: Inclui autorização, confidencialidade e proibição de criar exceções.
+
+Aspecto: Suporte técnico
+Versão inicial: Ajudar com pequenas falhas de software e hardware.
+Versão final: Define verificações seguras, uma etapa por vez, avaliação de risco e critérios para interromper tentativas.
+
+Aspecto: Emergências
+Versão inicial: Recomendar contato com o número interno 193.
+Versão final: Determina uma resposta exclusiva, sem explicações ou orientações adicionais.
+
+Aspecto: Informações desconhecidas
+Versão inicial: Encaminhar ao superior ou à TI.
+Versão final: Define uma mensagem de encaminhamento e diferencia questões administrativas de questões técnicas.
+
+Aspecto: Formato das respostas
+Versão inicial: Formal, direto e com listas numeradas quando necessário.
+Versão final: Padroniza campos de orientação, resultado esperado, risco, fonte e próximo passo.
+
+Aspecto: Fluxo de atendimento
+Versão inicial: Verificar se a dúvida foi resolvida antes de encerrar.
+Versão final: Estabelece uma sequência de identificação, consulta, avaliação, orientação, verificação e encaminhamento.
+
+3. PRINCIPAIS MUDANÇAS E ASPECTOS POSITIVOS
+
+3.1. De regras gerais para uma política de conhecimento verificável
+Na versão inicial, o agente recebia a instrução de não inventar informações. Na versão final, essa regra foi detalhada: consultar documentos, indicar a origem, distinguir fatos confirmados de informações não confirmadas e não escolher arbitrariamente entre documentos conflitantes.
+
+Aspecto positivo:
+Reduz o risco de respostas inventadas e facilita a verificação das orientações fornecidas.
+
+3.2. Criação de um fluxo obrigatório de atendimento
+A versão inicial apresentava regras, mas não detalhava uma sequência completa de decisão. A versão final estabeleceu dez etapas, desde a identificação da solicitação até a verificação do resultado e o encaminhamento.
+
+Aspecto positivo:
+Torna o atendimento mais previsível, consistente e fácil de transformar em um procedimento operacional padronizado.
+
+3.3. Reforço da segurança e dos limites de atuação
+A versão final explicita restrições relacionadas a permissões, confidencialidade, alterações críticas, perda de dados e procedimentos de risco elevado.
+
+Aspecto positivo:
+Diminui a possibilidade de o agente orientar ações não autorizadas ou potencialmente prejudiciais à operação da instituição.
+
+3.4. Regra de emergência mais rígida
+Inicialmente, o agente deveria recomendar o número 193. Na versão final, a regra determina que a resposta seja exclusivamente: "Entre em contato com o número de emergência interno [193]."
+
+Aspecto positivo:
+Evita respostas longas em situações urgentes e estabelece um comportamento simples e inequívoco para os cenários abrangidos.
+
+3.5. Encaminhamento mais bem definido
+A versão inicial informava os contatos do superior imediato e da TI. A versão final também explica como escolher o encaminhamento: questões administrativas, institucionais ou de autorização vão para o superior; questões técnicas vão para a TI.
+
+Aspecto positivo:
+Facilita a identificação do próximo responsável e reduz encaminhamentos inadequados, desde que a natureza da demanda esteja clara.
+
+3.6. Respostas com estrutura e critérios definidos
+A versão inicial priorizava respostas curtas e listas numeradas. A final acrescenta campos para resultado esperado, risco, fonte documental e próximo passo.
+
+Aspecto positivo:
+Melhora a rastreabilidade, ajuda a conferir o fundamento das orientações e permite avaliar melhor a qualidade do atendimento.
+
+4. O QUE OS TESTES PRÁTICOS DEMONSTRARAM?
+
+As interações realizadas durante a configuração permitem observar como as mudanças afetam o comportamento do agente.
+
+- Pessoa desmaiada: resposta direcionada exclusivamente ao 193 após a regra final. Avaliação: adequado à regra de emergência definida.
+- Elevador parado: resposta exclusiva com o contato 193. Avaliação: adequado ao procedimento estabelecido para incidentes.
+- Retirada de prontuário: reconheceu a falta de informação e encaminhou ao superior. Avaliação: adequado; não inventou um setor responsável.
+- Cadastro de visitante: informou que não havia procedimento documentado e indicou contatos. Avaliação: seguro, mas depende da inclusão do manual do sistema para oferecer a solução direta.
+- Sistema não funciona: encaminhou à TI, mas não coletou inicialmente todos os dados da falha. Avaliação: parcialmente adequado; pode melhorar na investigação inicial quando houver procedimento aplicável.
+- Computador travado: encaminhou à TI sem executar verificações. Avaliação: conservador e seguro, mas evidencia a ausência de procedimentos documentados para esse cenário.
+- Usuário com fome: encaminhou ao superior imediato. Avaliação: seguiu a tendência de encaminhar assuntos sem resposta, mas pode ser excessivamente rígido para uma solicitação que não configura necessariamente uma demanda institucional.
+
+A lista do item 4 apresenta uma avaliação qualitativa das respostas observadas, não uma medição estatística de desempenho.
+
+5. CONCLUSÃO
+
+A principal evolução foi passar de um conjunto de instruções gerais para um protocolo de atendimento com regras explícitas de decisão, segurança, fundamentação e encaminhamento.
+
+Benefícios mais importantes:
+- Maior controle sobre informações não confirmadas.
+- Menor propensão a inventar procedimentos ou permissões.
+- Respostas mais consistentes entre diferentes atendimentos.
+- Melhor definição dos limites entre suporte inicial e atendimento especializado.
+- Maior possibilidade de auditoria e melhoria contínua.
+
+Entretanto, um prompt bem estruturado não garante, sozinho, respostas operacionais corretas. A qualidade final depende também da documentação disponível, da forma como ela é consultada e dos testes realizados.
+
+6. MINHA OPINIÃO FINAL
+
+Quando falamos em atendimento com Inteligência Artificial, seja para atender às demandas de um setor interno de uma empresa ou para prestar atendimento direto aos clientes, precisamos compreender que o desenvolvimento de um agente de IA exige **avaliação, atualização e aprimoramento contínuos do prompt**.
+
+Não devemos enxergar o prompt como algo definitivamente certo ou errado, mas como uma estrutura que pode ser constantemente aperfeiçoada. Novas regras, parâmetros, instruções e fontes de conhecimento podem ser incorporados conforme surgem novas demandas, dificuldades identificadas e expectativas em relação à qualidade da entrega do agente.
+
+O objetivo desse processo é tornar o atendimento cada vez mais preciso, seguro, consistente e alinhado às necessidades reais dos usuários e da organização.
+
+Entretanto, essa evolução deve ser orientada por critérios claros, testes práticos, análise dos resultados e validação das alterações. Nem toda mudança representa uma melhoria: cada ajuste precisa demonstrar que contribui para o desempenho do agente sem comprometer a segurança, a confiabilidade ou a qualidade das respostas.
+
+Portanto, desenvolver um agente de IA não termina com a criação de um bom prompt. Trata-se de um processo contínuo de aprendizado, revisão e aperfeiçoamento, cujo sucesso depende da capacidade de identificar limitações, incorporar novos conhecimentos e adaptar o atendimento às necessidades que surgem ao longo do tempo.
