@@ -44,9 +44,9 @@ O arquivo [`prompt_final.md`](prompt_final.md) define o comportamento de um agen
 
 ## Documentação do projeto
 
-O arquivo [`comparativo_e_opiniao.txt`](comparativo_e_opiniao.txt) compara a versão inicial do agente com a versão final entregue, em aspectos como objetivo, base de conhecimento, suporte técnico, emergências, encaminhamento, formato das respostas e fluxo de atendimento. Também traz os resultados qualitativos de sete testes práticos, a conclusão sobre a evolução do prompt e a opinião final do autor: um agente de IA exige avaliação, atualização e aprimoramento contínuos do prompt, guiados por critérios claros e testes.
+O arquivo [`comparativo_e_opiniao.txt`](comparativo_opiniao.txt) compara a versão inicial do agente com a versão final entregue, em aspectos como objetivo, base de conhecimento, suporte técnico, emergências, encaminhamento, formato das respostas e fluxo de atendimento. Também traz os resultados qualitativos de sete testes práticos, a conclusão sobre a evolução do prompt e a opinião final do autor: um agente de IA exige avaliação, atualização e aprimoramento contínuos do prompt, guiados por critérios claros e testes.
 
-O arquivo [`prompt_versao_1.md`](prompt_versao_1.md) reúne a primeira versão do prompt, para consulta e comparação com a versão final.
+O arquivo [`prompt_versao_1.md`](prompt_1.md) reúne a primeira versão do prompt, para consulta e comparação com a versão final.
 
 ## Observações
 
